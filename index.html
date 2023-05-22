@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" class="h-100" data-bs-theme="auto" dir="rtl">
+<html lang="ar" class="h-100" dir="rtl" data-bs-theme="auto">
   <head>
     <!-- Google tag (gtag.js) -->
     <script
@@ -61,25 +61,28 @@
     />
     <meta name="theme-color" content="#1d1d1d" />
   </head>
-  <body class="d-flex h-100 text-center text-bg-dark">
+  <body class="d-flex h-100 text-center" id="cover">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto"></header>
 
       <main class="px-3">
         <h1>
-          <img src="/assets/logo/logo_dark.svg" alt="سنبله - snbla" class="img-fluid" width="512px"/>
+          <img src="/assets/logo/logo_dark.svg" alt="سنبله - snbla" class="img-fluid" width="512px" id="cover-logo"/>
         </h1>
         <p class="lead"><img src="/assets/logo/tagline.svg" alt="ادخر الآن واشتر لاحقا - Save Now, Buy Later" class="img-fluid" width="224"></p>
       </main>
 
-      <footer class="mt-auto text-white-50">
-        <p>
+      <footer class="mt-auto">
+        <p class="text-secondary">
           جميع الحقوق محفوظة &copy;
-          <a href="https://snbla.com/" class="text-white"
+          <a href="https://snbla.com/" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
             >شركة سنبله للتقنية المالية</a
           >.
         </p>
       </footer>
     </div>
+      <!-- Main Theme Script -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/custom.js"></script>
   </body>
 </html>

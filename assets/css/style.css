@@ -6,13 +6,6 @@
  * Base structure
  */
 
-body {
-  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-}
-.text-bg-dark {
-  background-color: RGBA(29, 29, 29, var(--bs-bg-opacity, 1)) !important;
-}
-
 .cover-container {
   max-width: 42em;
 }
