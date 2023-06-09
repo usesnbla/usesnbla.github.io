@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#New_Gradient_Swatch);
+        fill: url(#linear-gradient);
       }
 
       .cls-2 {
@@ -14,7 +14,7 @@
         fill: #1d1546;
       }
     </style>
-    <linearGradient id="New_Gradient_Swatch" data-name="New Gradient Swatch" x1="5.94" y1="18.55" x2="32.06" y2="-4.55" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="5.94" y1="18.55" x2="32.06" y2="-4.55" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ff89b7"/>
       <stop offset=".26" stop-color="#cf87d1"/>
       <stop offset=".55" stop-color="#9a8fdd"/>
